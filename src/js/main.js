@@ -1,8 +1,9 @@
-const HOW_MANY_VIDEOS = 6;
-const MARGIN_RIGHT = 20;
+const HOW_MANY_VIDEOS = 5;
+const MARGIN_RIGHT = 0;
 const MAX_COLUMNS = 4;
 const VIDEO_CLASS = 'videoContainer__video-item';
 const container = document.getElementById('videoContainer');
+// const container = document.body;
 
 if (HOW_MANY_VIDEOS) {
   let html = '';
@@ -13,8 +14,10 @@ if (HOW_MANY_VIDEOS) {
 }
 
 const RATIO = 9 / 16;
-const LATERAL_PADDING = 40;
-const TOP_PADDING = 30;
+const LATERAL_PADDING = 0;
+const TOP_PADDING = 0;
+// const LATERAL_PADDING = 40;
+// const TOP_PADDING = 30;
 const videoItems = container.querySelectorAll(`.${VIDEO_CLASS}`);
 
 
